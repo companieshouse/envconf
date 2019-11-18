@@ -11,7 +11,7 @@ package main
 import(
   "flag"
   "fmt"
-  . "github.com/ian-kent/envconf"
+  . "github.com/companieshouse/envconf"
 )
 
 func main() {
