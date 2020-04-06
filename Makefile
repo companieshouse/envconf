@@ -4,7 +4,7 @@ TESTS ?= ./...
 GO111MODULE = on
 
 .PHONY: all
-all: fmt build test
+all: clean fmt build test
 
 .PHONY: fmt
 fmt:
@@ -24,3 +24,7 @@ test-unit:
 .PHONY: test-integration
 test-integration:
 	  go test $(TESTS) -run 'Integration'
+
+.PHONY: clean
+clean:
+	go mod tidy
