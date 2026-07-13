@@ -1,0 +1,17 @@
+# Build artifacts
+envconf
+envconf-*.zip
+build.log
+
+# Test output
+test.xml
+
+# Lint output
+lint.txt
+
+# Mac files
+.DS_Store
+._*
+
+#IDE generated files
+.idea/
