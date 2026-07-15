@@ -7,7 +7,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 )
 
-func TestIntegrationFromEnv(t *testing.T) {
+func TestUnitFromEnv(t *testing.T) {
 	Convey("Value not replaced if environment variable not set", t, func() {
 		os.Clearenv()
 		v := interface{}("default")

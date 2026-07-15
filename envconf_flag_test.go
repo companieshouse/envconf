@@ -8,7 +8,7 @@ import (
 	. "github.com/smartystreets/goconvey/convey"
 )
 
-func TestIntegrationFlagFromEnv(t *testing.T) {
+func TestUnitFlagFromEnv(t *testing.T) {
 	Convey("Replacing flags with env vars after parsing", t, func() {
 		os.Clearenv()
 
