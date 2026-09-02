@@ -28,3 +28,8 @@ func main() {
 Copyright ©‎ 2014, Ian Kent (http://iankent.uk).
 
 Released under MIT license, see [LICENSE](LICENSE.md) for details.
+
+## Slack notifications
+
+This Fission service sends pipeline notifications to the `team-fission-pipelines` Slack channel.
+
